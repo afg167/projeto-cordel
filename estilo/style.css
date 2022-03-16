@@ -49,6 +49,11 @@ header a:hover, footer a:hover{ /*mesma coisa do select anterior*/
     text-decoration: underline;
 }
 
+a.anchor::after{
+    content: '\00A0\00A0\1F517';
+    font-size: 10pt;
+}
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
